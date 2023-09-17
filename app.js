@@ -24,7 +24,7 @@ function start(){
             seconds = 0
         }
     
-    },10)
+    },50)
     document.getElementById('sss').disabled = true
     
 }
