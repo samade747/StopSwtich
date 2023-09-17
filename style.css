@@ -77,3 +77,21 @@ button:disabled {
 .timer h1:not(:last-child) {
     margin-bottom: 5px; /* Add some space between elements */
 }
+
+
+
+/* Style for screens smaller than 600px */
+@media (max-width: 600px) {
+    .timer {
+        flex-direction: row; /* Display horizontally */
+        text-align: left; /* Align text to the left */
+    }
+
+    .timer h1 {
+        font-size: 24px; /* Reduce font size */
+    }
+
+    .timer h1:not(:last-child) {
+        margin-right: 5px; /* Add space between elements */
+    }
+}
