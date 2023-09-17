@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ebdfdf;
+    color: #2e2727;
     text-align: center;
     padding: 1em 0;
 }
@@ -55,4 +55,22 @@ button {
 
 button:disabled {
     background-color: #666; /* Darken disabled button */
+}
+
+/* ... (previous CSS rules) */
+
+.timer {
+    display: flex;
+    align-items: center;
+}
+
+.timer h1 {
+    font-size: 48px; /* Adjust the font size as needed */
+    color: #fff;
+    margin: 0;
+}
+
+.timer h1:not(:last-child) {
+    /* margin-right: 55px; Add some space between elements */
+    margin: auto;
 }
