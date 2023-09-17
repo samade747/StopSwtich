@@ -31,8 +31,8 @@ main {
 
 /* Style the time elements as circles */
 h1#min, h1#sec, h1#msec {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: #5dabf4; /* Set background color to dark gray */
     border-radius: 50%; /* Make it round */
     display: flex;
@@ -47,10 +47,10 @@ button {
     background-color: #2484ce;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 20px 70px;
     font-size: 16px;
-    margin: 10px;
-    border-radius: 5px; /* Add rounded corners to buttons */
+    margin: 30px;
+    border-radius: 10px; /* Add rounded corners to buttons */
 }
 
 button:disabled {
@@ -59,18 +59,21 @@ button:disabled {
 
 /* ... (previous CSS rules) */
 
+/* ... (previous CSS rules) */
+
 .timer {
     display: flex;
     align-items: center;
+    
+    text-align: center;
+    color: #fff;
 }
 
 .timer h1 {
     font-size: 48px; /* Adjust the font size as needed */
-    color: #fff;
     margin: 0;
 }
 
 .timer h1:not(:last-child) {
-    /* margin-right: 55px; Add some space between elements */
-    margin: auto;
+    margin-bottom: 5px; /* Add some space between elements */
 }
