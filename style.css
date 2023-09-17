@@ -31,9 +31,9 @@ main {
 
 /* Style the time elements as circles */
 h1#min, h1#sec, h1#msec {
-    width: 80px;
-    height: 80px;
-    background-color: #333; /* Set background color to dark gray */
+    width: 100px;
+    height: 100px;
+    background-color: #5dabf4; /* Set background color to dark gray */
     border-radius: 50%; /* Make it round */
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ h1#min, h1#sec, h1#msec {
 }
 
 button {
-    background-color: #333;
+    background-color: #2484ce;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -54,7 +54,7 @@ button {
 }
 
 button:disabled {
-    background-color: #666; /* Darken disabled button */
+    background-color: #1a58cb; /* Darken disabled button */
 }
 
 /* ... (previous CSS rules) */
